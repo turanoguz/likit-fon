@@ -1,0 +1,11 @@
+.wrapper-in-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.buy.customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}

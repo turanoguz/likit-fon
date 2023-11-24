@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://192.168.144.82:1443;databaseName=Kogus;trustServerCertificate=true;Trusted_Connection=True;
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: grup5
+    password: 123456
+  jpa:
+    hibernate:
+      format_sql: true
+
+application:
+  security:
+    jwt:
+      secret-key: 229B574173B78641D2C52835B5F49B67297DCB85CD7AFC79753983DDA6523D31
+      expiration: 86400000 # a day
+      refresh-token:
+        expiration: 604800000 # 7 days 

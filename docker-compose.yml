@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    restart: on-failure
+    ports:
+      - "8080:8080"
+    networks:
+      - kogus
+
+  frontend:
+    depends_on:
+      - app
+    build:
+      context: ./winvest-ui
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - kogus
+    links:
+      - app:app
+    restart: on-failure
+
+networks:
+  kogus:
+    driver: bridge

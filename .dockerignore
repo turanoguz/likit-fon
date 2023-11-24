@@ -1,0 +1,4 @@
+./winvest-application/target
+./winvest-auth-v1/target
+./winvest-core/target
+./winvest-fund-v1/target

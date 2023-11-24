@@ -1,0 +1,157 @@
+.buysell-container {
+  display: flex;
+  height: 85%;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.buysell-button {
+  border-radius: 0 !important;
+  width: 140px;
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 0.55) 16.96%,
+    rgba(217, 217, 217, 0) 100%
+  ) !important;
+}
+
+.buysell-button.active {
+  background: linear-gradient(
+    180deg,
+    rgba(173, 42, 42, 0.55) 16.96%,
+    rgb(255, 0, 0) 100%
+  ) !important;
+  box-shadow: 0px 9.38461px 93.8461px rgba(0, 0, 0, 0.15);
+}
+
+.customer {
+  height: 30vh;
+  width: 100%;
+  padding: 24px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  background: linear-gradient(180deg, #9e9a9a 0%, rgba(0, 0, 0, 0) 100%);
+  box-shadow: 0px 4px 4px #00000066;
+}
+
+.customer .text {
+  width: 240px;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.fund-create-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 50px;
+  height: 60%;
+  width: 100%;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #9e9a9a 0%, rgba(0, 0, 0, 0) 100%);
+  box-shadow: 0px 4px 4px #00000066;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-right: 10px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #0d0d0d;
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 0.55) 16.96%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  border: 1px solid rgb(119, 119, 119);
+  width: 200px;
+  text-align: center;
+}
+
+.text-field {
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 0.55) 16.96%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  border-radius: 4px;
+}
+
+.text-field
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(119, 119, 119) !important;
+  border-width: 2px;
+}
+
+.text-field
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(119, 119, 119) !important;
+  border-width: 2px;
+}
+
+.input-wrapper
+  .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(119, 119, 119) !important;
+  border-width: 2px;
+}
+
+.input-wrapper
+  .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(119, 119, 119) !important;
+  border-width: 2px;
+}
+
+.input-wrapper .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #0d0d0d;
+}
+
+.text-field .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #0d0d0d !important;
+}
+
+.text-field
+  .css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(119, 119, 119) !important;
+  border-width: 2px;
+}
+
+.text-field
+  .css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(119, 119, 119) !important;
+  border-width: 2px;
+}
+.text-field
+  .css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(119, 119, 119) !important;
+  border-width: 2px;
+}
+.text-field
+  .css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgb(119, 119, 119) !important;
+  border-width: 2px;
+}
